@@ -48,12 +48,12 @@ fun main() {
     // Read a test input from the `src/Day02_test.txt` file:
     val testInput = readInput("Day02_test")
 //    println(testInput)
-//    part1(testInput).println()
+    part1(testInput).println()
     part2(testInput).println()
 
     // Read the input from the `src/Day02.txt` file.
     val input = readInput("Day02")
-//    part1(input).println()
+    part1(input).println()
     part2(input).println()
 }
 
